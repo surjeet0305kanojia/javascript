@@ -28,10 +28,22 @@ null-> false
 
 
 /* conversion to string */
-let str=
+let str=NaN
 string=String(str);
-console.log( typeof string);
-console.log(  string);
+// console.log( typeof string);
+// console.log(  string);
+
+
+
+// ----------------------------operations----------------------------------
+
+console.log(1+"2");
+console.log("1"+2);  
+console.log(1+1+"2"+"3"); // if string is last arg the operations will execute before conversion
+console.log("1"+2+3);  //if first arg is string all arg converted to string
+console.log(+true); // 1
+console.log(-true);
+console.log(+""); // 0
 
 
 
