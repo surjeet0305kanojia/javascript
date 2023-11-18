@@ -16,3 +16,5 @@ let s1='    suru   '
 console.log(s1);
 console.log(s1.trim());
 console.log(s1.replace("u",'x'));
+let s=`this is surjeet kanojia`
+console.log(s.split(" "));
