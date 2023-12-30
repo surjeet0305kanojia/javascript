@@ -9,7 +9,7 @@ user.fullname={
     lastname:"kanojia",
     middlename:"kumar"
 };
-console.log(user.fullname.lastname);
+// console.log(user.fullname.lastname);
 
 // merge two objects ....
 const obj1={1:"a",2:"b"}
@@ -18,11 +18,16 @@ const obj3={5:"fgd",6:"fd"};
 
 // using assign method
 const obj4=Object.assign({},obj1,obj2,obj3)
-console.log(obj4);
+// console.log(obj4);
 // using spread method
 const obj5={...obj1,...obj2,...obj3}
-console.log(obj5);
+// console.log(obj5);
 
-console.log(Object.keys(obj5));
-console.log(Object.values(obj5));
-console.log(Object.entries(obj5));
+// console.log(Object.keys(obj5));
+// console.log(Object.values(obj5));
+// console.log(Object.entries(obj5));
+
+// destructuring of object
+
+const {fullname:fname}= user
+console.log(fname);
